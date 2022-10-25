@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "cd .. && husky install api/.husky",
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "lint-staged": {
